@@ -4,17 +4,17 @@
     Describe the project and the reuslts
   ## Design Description
     Could a technician build your design based on this documentation?
-    ### Supplies Needed
+   ### Supplies Needed
       List Supplies
-    ### 3D Printed Parts
+   ### 3D Printed Parts
       List Gears and Sizes
-    ### Circuit
+   ### Circuit
       Display and explain circuit
-    ### Code
-    ### Parts of Build
+   ### Code
+   ### Parts of Build
       Ramp, funnels, gears, frame, etc. 
       Put engineering drawings here
-    ### Overall Assembly
+   ### Overall Assembly
   ## Desgin Decision Discussion
     Could someone buld on top of your desgin with modifications?
     Design decisions are described completely
