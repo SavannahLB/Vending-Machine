@@ -6,17 +6,50 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
 
   ## Design Description
     Could a technician build your design based on this documentation?
-   ### Supplies Needed
-      List Supplies
+    ### Supplies Needed
+- Two Sparkfun Electronics RedBoard DEV-13975
+- Sparkfun Electronics Kit Parts:
+  - Four toy DC motors
+  - Wires
+  - Breadboard
+  - Four buttons
+  - LCD screen
+- Wooden (Add measurements)
+- Screws (Add sizes)
+- Four plastic water bottles
+- Wire
+- Sheet Metal
+- Hot glue
+- Tape
+- Cardboard
+- Black Paint
+- Glass(?)
+
+   ### Tools Used
+- Pilers
+- Drill
+- Hot glue gun
+- 3D Printers
+- Ruler/ Measurement Tools
+- Pocket Knife
+- Scissors
+- Laser Cutter
+
    ### 3D Printed Parts
-      List Gears and Sizes
+ Four gears were 3D printed
+ (Add picture and measurements)
+ 
    ### Circuit
       Display and explain circuit
+      
    ### Code
+   
    ### Parts of Build
       Ramp, funnels, gears, frame, etc. 
       Put engineering drawings here
+      
    ### Overall Assembly
+   
   ## Desgin Decision Discussion
     Could someone buld on top of your desgin with modifications?
     Design decisions are described completely
