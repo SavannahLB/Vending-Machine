@@ -14,6 +14,7 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
 - Two Sparkfun Electronics RedBoard DEV-13975
 - Sparkfun Electronics Kit Parts:
   - Four toy DC motors
+  - Two motor drive boards
   - Wires
   - Breadboard
   - Four buttons
@@ -28,7 +29,7 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
 - Tape
 - Cardboard
 - Black Paint
-- Glass(?)
+- Plexiglass
 
 ### Tools Used
 - Pilers
@@ -44,9 +45,20 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
  Four gears were 3D printed
  (Add picture and measurements)
  
-### Circuit
+### Schematics
     Display and explain circuit
-      
+    DONE
+To house the entire circuit, two Red Boards are used. The vending machine's circuit is split into three sections: the buttons, the LCD screen, and the motors. Board one contains the buttons and LCD screen, while board two holds the four DC motors. Both individual circuits are viewable below.
+#### Circuit 1
+<img src="Schematics/Circuit 1 (Buttons and LCD).png">
+
+#### Circuit 2
+<img src="Schematics/Circuit 2 Schematic (Motors 1 and 2).png">
+ 
+ The two Red Boards are connected by wiring three specific pins on each board to the other board's pins. One connection is of the ground pins on both boards. The other two connections involve connecting one board's TX D1 pin to the other board's RX D0 pin and vice versa. The overall schematic is seen below. 
+#### Overall Schematic
+<img src="Schematics/Complete Circuit Schematic.png">
+
 ### Code
 
 ### Parts of Build
