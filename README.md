@@ -14,6 +14,7 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
   - Breadboard
   - Four buttons
   - LCD screen
+  - Potentiometer
 - Wooden (Add measurements)
 - Screws (Add sizes)
 - Four plastic water bottles
