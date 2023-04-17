@@ -30,6 +30,11 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
 - Cardboard
 - Black Paint
 - Plexiglass
+- Candy
+  - M&Ms
+  - Skittles
+  - Reese's Puffs
+  - Peanut M&Ms
 
 ### Tools Used
 - Pilers
@@ -42,8 +47,11 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
 - Laser Cutter
 
 ### 3D Printed Parts
- Four gears were 3D printed
- (Add picture and measurements)
+    Display and explain 3D Print of Gear
+    DONE
+Four unique gears are 3D modeled and printed for the funneling/dispensing system. These gears are attached to DC motors and situated underneath the funnels. When the button is pushed, the DC motor will spin the gear, emptying a portion of candy to the user. Below is an image of the 3D model of the gear. The gear follows a cylinder design with a 10 cm radius and a height of 8 cm. The circular top is split into four sections, with the two opposite sides removed to give the gear its teeth. A small hole is made at the bottom of the gear to place the DC motor into. The center of the gear is hollowed out so that the print can minimize the print time while lower int he the weight of the gear for the DC motor to spin. 
+
+<img src="3D Gear Print Model.png">
  
 ### Schematics
     Display and explain circuit
@@ -64,17 +72,36 @@ To house the entire circuit, two Red Boards are used. The vending machine's circ
 ### Parts of Build
     Ramp, funnels, gears, frame, etc. 
     Put engineering drawings here
+    Talk about finalized designs
+    
+#### Wooden Frame
+
+#### Funnels
+
+#### Gears
+
+#### Ramp
       
 ### Overall Assembly
    
 ## Desgin Decision Discussion
-    Could someone buld on top of your desgin with modifications?
+    Could someone buld on top of your design with modifications?
     Design decisions are described completely
+    Talk about evolution of the build; what changed, what was updated, what is the final result
+    
+### Wooden Frame
+
+### Funnels
+
+### Gears
+
+### Ramp
     
 ## Testing Description
     Could another test engineer replicate your test?
     Test equipment specified 
     Procedures Fully described
+    
     
 ## Testing Results
     Where test results described correctly?
