@@ -75,15 +75,20 @@ To house the entire circuit, two Red Boards are used. The vending machine's circ
     Talk about finalized designs
     
 #### Wooden Frame
+<img src="Engineering Drawings/Frame Drawing.png">
 
 #### Funnels
+<img src="Engineering Drawings/Funnel Drawing.png">
 
 #### Gears
+<img src="Engineering Drawings/Gear Drawing.png">
 
 #### Ramp
-      
+<img src="Engineering Drawings/Ramp Drawing.png">
+
 ### Overall Assembly
-   
+<img src="Engineering Drawings/Overall Build Drawing.png">
+
 ## Desgin Decision Discussion
     Could someone buld on top of your design with modifications?
     Design decisions are described completely
