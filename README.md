@@ -73,6 +73,8 @@ Two code files were used. One for the "input" Arduino Board with all the buttons
 
 The input board code: 
 
+'''
+
 // this is for the arduino with all the buttons and lcd display
 
 #include <LiquidCrystal.h>            //the liquid crystal library contains commands for printing to the display
@@ -199,9 +201,11 @@ void loop() {
 
 }
 
+'''
 
 The output board code: 
 
+'''
 
 // initializing variables
 
@@ -370,7 +374,7 @@ void spinGreenMotor(int greenMotorSpeed) {                      //function for d
   analogWrite(xPWMB, abs(greenMotorSpeed));                 
 }
 
-
+'''
 
 ### Parts of Build
     Ramp, funnels, gears, frame, etc. 
