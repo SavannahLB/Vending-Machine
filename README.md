@@ -69,9 +69,10 @@ To house the entire circuit, two Red Boards are used. The vending machine's circ
 
 ### Code
 
-##Two code files were used. One for the "input" Arduino Board with all the buttons and the LCD screen, and one for the "output" Arduino board with the motors. Two Arduinos were needed because there weren't enough digital pins in only one arduino for the LCD screen and the 4 motors. 
+Two code files were used. One for the "input" Arduino Board with all the buttons and the LCD screen, and one for the "output" Arduino board with the motors. Two Arduinos were needed because there weren't enough digital pins in only one arduino for the LCD screen and the 4 motors. 
 
-## The input board code: 
+The input board code: 
+
 // this is for the arduino with all the buttons and lcd display
 
 #include <LiquidCrystal.h>            //the liquid crystal library contains commands for printing to the display
@@ -199,7 +200,7 @@ void loop() {
 }
 
 
-##The output board code: 
+The output board code: 
 
 
 // initializing variables
