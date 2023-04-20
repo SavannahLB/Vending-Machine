@@ -415,13 +415,13 @@ Trapziod: 22.5 (base 1), 4 in (base 2), length 12.5 in
     Talk about evolution of the build; what changed, what was updated, what is the final result
     
 ### Wooden Frame
-
+The wood frame is made of 4x1 southern pine lumber. 
 ### Funnels
-
+The funnels are recycled from a wide mouth flavored water.
 ### Gears
-
+The gears were designed using a CAD software, then 3D printed. The gear design was oversided, thus we had to at cardboard inserts to reduce the gears' total capacity. 
 ### Ramp
-    
+The ramp is made from bent sheet metal. The disign uses three pieces of metal that are pop riveted together.
 ## Testing Description
     Could another test engineer replicate your test?
     Test equipment specified 
