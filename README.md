@@ -20,8 +20,12 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
   - Four buttons
   - LCD screen
   - Potentiometer
-- Wooden (Add measurements)
-- Screws (Add sizes)
+- Wood 
+  -  2 pieces 16 x 3.5 x 0.5 in
+  -  2 pieces 3.5 x 10.5 x 0.5 in
+  -  2 pieces 24 x 1 x 1 in
+- Screws (2 inch)
+- Pull Rivets
 - Four plastic water bottles
 - Wire
 - Sheet Metal
@@ -29,7 +33,7 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
 - Tape
 - Cardboard
 - Black Paint
-- Plexiglass
+- Plexiglass (9 x 22.5 X 0.125 in)
 - Candy
   - M&Ms
   - Skittles
@@ -382,10 +386,12 @@ void spinGreenMotor(int greenMotorSpeed) {                      //function for d
     Talk about finalized designs
     
 #### Wooden Frame
-The wooden frame bares the weight of the build, when holding all the other parts in place. An image of the frame can be viewed below. The frame houses two smaller wooden beams located at the top and middle of the build. The top beam is to connect and hold the funnels to the structure, while the middle beam holds the four DC motors for the gears to connect to. 
+The wooden frame bares the weight of the build, when holding all the other parts in place. An image of the frame can be viewed below. The frame houses two smaller wooden beams located at the top and middle of the build. The top beam is to connect and hold the funnels to the structure, while the middle beam holds the four DC motors for the gears to connect to.
+Back plannel: 22.5 long, 4 inches tall
 <img src="Engineering Drawings/Frame Drawing.png">
 
 #### Funnels
+Dimensions: top 2 3/4in diameter, 7 inches long, bottom diameter 1.5 in
 Four water bottles are cut at the bottom so that the bottle models a funnel like design,, as seen in the image below.
 <img src="Engineering Drawings/Funnel Drawing.png">
 
@@ -394,6 +400,10 @@ In addition to the
 <img src="Engineering Drawings/Gear Drawing.png">
 
 #### Ramp
+Dimensions: 24 in long, thickness 1 in, widith 1 in
+Retangle : 3.5 in X 22.5 in
+Trapziod: 22.5 (base 1), 4 in (base 2), length 12.5 in
+ boarder thinkness 1.25 in
 <img src="Engineering Drawings/Ramp Drawing.png">
 
 ### Overall Assembly
