@@ -382,12 +382,15 @@ void spinGreenMotor(int greenMotorSpeed) {                      //function for d
     Talk about finalized designs
     
 #### Wooden Frame
+The wooden frame bares the weight of the build, when holding all the other parts in place. An image of the frame can be viewed below. The frame houses two smaller wooden beams located at the top and middle of the build. The top beam is to connect and hold the funnels to the structure, while the middle beam holds the four DC motors for the gears to connect to. 
 <img src="Engineering Drawings/Frame Drawing.png">
 
 #### Funnels
+Four water bottles are cut at the bottom so that the bottle models a funnel like design,, as seen in the image below.
 <img src="Engineering Drawings/Funnel Drawing.png">
 
 #### Gears
+In addition to the 
 <img src="Engineering Drawings/Gear Drawing.png">
 
 #### Ramp
