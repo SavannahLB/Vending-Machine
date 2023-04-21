@@ -5,7 +5,7 @@ Group Members: Savannah Beyerle, Johnna Campbell, Marlenne Conrado, Brendan Hene
     Write Summary of Project Here 
     Describe the project and the reuslts
     DONE
-For the BAE 305 project, a miniature vending machine was created. This system works like most vending machines: a button will select a product leading to a dispensing system giving said product to the user. In this case, the dispensing system is a conglomerate of funnels and gears that use gravity to pull the wanted item down to the user. These products for the user are four different types of candies (Skittles, M&Ms, Reeses Pieces, and 4th). A specilized button (four in total) activates one of four gears, allowing candy to flow from the attached funnel system. Overall, each candy is placed in its funnel. When the specific candy's button is pushed, an attached LCD screen will display the candy selected while the gear attached to a DC toy motor and positioned under the funnel will spin half a rotation. This will give the user a handful of that candy while reblocking that funnel, stopping more candy from falling. A ramp positioned below all four gear systems will lead the candy to one location so the user can collect the candy in their hand. When assembled, the machine was tested multiple times to get the correct spin of the gear and candy ratio for the user. After assembly, the miniature vending machine functions as intended, as listed in the project backlog.
+For the BAE 305 project, a miniature vending machine was created. This system works like most vending machines: a button will select a product leading to a dispensing system giving said product to the user. In this case, the dispensing system is a conglomerate of funnels and gears that use gravity to pull the wanted item down to the user. These products for the user are four different types of candies (Skittles, M&Ms, Reeses Pieces, and Peanut M&Ms). A specilized button (four in total) activates one of four gears, allowing candy to flow from the attached funnel system. Overall, each candy is placed in its funnel. When the specific candy's button is pushed, an attached LCD screen will display the candy selected while the gear attached to a DC toy motor and positioned under the funnel will spin half a rotation. This will give the user a handful of that candy while reblocking that funnel, stopping more candy from falling. A ramp positioned below all four gear systems will lead the candy to one location so the user can collect the candy in their hand. When assembled, the machine was tested multiple times to get the correct spin of the gear and candy ratio for the user. After assembly, the miniature vending machine functions as intended, as listed in the project backlog.
 
 ## Design Description
     Could a technician build your design based on this documentation?
@@ -33,11 +33,11 @@ For the BAE 305 project, a miniature vending machine was created. This system wo
 - Tape
 - Cardboard
 - Black Paint
-- Plexiglass (9 x 22.5 X 0.125 in)
+- Acrylic Sheet (9 x 22.5 X 0.125 in)
 - Candy
   - M&Ms
   - Skittles
-  - Reese's Puffs
+  - Reese's Pieces
   - Peanut M&Ms
 
 ### Tools Used
@@ -384,30 +384,36 @@ void spinGreenMotor(int greenMotorSpeed) {                      //function for d
     Ramp, funnels, gears, frame, etc. 
     Put engineering drawings here
     Talk about finalized designs
+    DONE
     
 #### Wooden Frame
-The wooden frame bares the weight of the build, when holding all the other parts in place. An image of the frame can be viewed below. The frame houses two smaller wooden beams located at the top and middle of the build. The top beam is to connect and hold the funnels to the structure, while the middle beam holds the four DC motors for the gears to connect to.
-Back plannel: 22.5 long, 4 inches tall
+The wooden frame holds the weight of the vending machine while holding all the other parts in place. A drawing of the frame can be viewed below. The two base slabs are 3.5 x 10.5 x 0.5 inches. The wooden legs atop the slabs are 16 x 3.5 x 0.5 inches. The frame has two smaller wooden beams to connect the legs, located at the top and middle of the machine. Each beam has a size of 24 x 1 x 1 inches. The top beam also connects and holds the funnels to the structure, while the middle beam has the four DC motors for the gears connected to it. Under the middle beam is a back panel to keep the candy from falling out of the back of the machine. The panel is 22.5 inches long and 4 inches tall.
+
 <img src="Engineering Drawings/Frame Drawing.png">
 
 #### Funnels
-Dimensions: top 2 3/4in diameter, 7 inches long, bottom diameter 1.5 in
-Four water bottles are cut at the bottom so that the bottle models a funnel like design,, as seen in the image below.
+Four water bottles are cut at the bottom so that the bottle models a funnel-like design, as seen in the image below. The top diameter of the bottle is 2.75 inches, while the lower diameter is 1.5 inches. Each bottle is cut to a height of 7 inches. These funnels are to hold the candy. 
+
 <img src="Engineering Drawings/Funnel Drawing.png">
 
 #### Gears
-In addition to the 
+In addition to the 3D print, each gear will have four cardboard cutouts placed within it, two in each open section. The cardboard wedge minimize the room for the gear to house candy dispended from the funnel. This helps with controlling the flow and bottlenecking of candy in the machine. Each wedge matches the gear's circumference to fit nicely inside the opening with an overhang. 
+
 <img src="Engineering Drawings/Gear Drawing.png">
 
 #### Ramp
-Dimensions: 24 in long, thickness 1 in, widith 1 in
-Retangle : 3.5 in X 22.5 in
-Trapziod: 22.5 (base 1), 4 in (base 2), length 12.5 in
- boarder thinkness 1.25 in
+A piece of sheet metal is formed to model a ramp-like design. The ramp looks like a trapezoid atop a rectangle, as seen in the drawing below. The rectangle is 22.5 inches long with a width of 3.5 inches. The outer rim of the rectangle has a 1-inch high vertical piece to attach it to the wooden legs while also acting as a wall to keep the fallen candy in. The trapezoidal shape continues with a base of 22.5 inches to match the rectangle. The second base has a size of 4 inches, while the length extends to 9 inches. The sides of the trapezoid also have a wall to keep the dispended candy in, standing at 1.25 inches tall. The smaller base is left open without a wall, as this will be where the user accesses the candy. 
+
 <img src="Engineering Drawings/Ramp Drawing.png">
 
 ### Overall Assembly
+All four parts are combined to create the vending machine drawn below. 
 <img src="Engineering Drawings/Overall Build Drawing.png">
+
+Eight small holes are drilled into the upper wooden beam of the wooden structure so that four steel wires may pass through. Each wire is placed in two holes and wrapped around one of the bottle funnels, with the smaller diameter facing down. Four DC motors with 3D-printed gears attached are placed directly below the funnels. To hold the gears in place, each motor is tied with the steel wire to the middle wooden beam. Right below the frame's back panel is the ramp. The ramp is slightly tilted, with the trapezoidal side lower than the rectangular side. A sheet of acrylic (9 x 22.5 X 0.125 inches) is fit between the two legs of the machine, below the upper wooden beam. The acrylic stops any candy from falling toward the user before the ramp and allows the user to see the movement of the gears. The candy will start in the funnels, with each funnel housing a different type of candy. When the gear spins, the candy will fall into the gear and then into the ramp tray. When the gear stops spinning, the funnel's hole is blocked, stopping the candy. The candy already dispensed in the tray will move towards the smaller opening in the ramp for the user to access. The physical vending machine can be viewed below.
+
+<img src="Pictures/Vending Machine (Front).jpg">
+<img src="Pictures/Vending Machine (Back).jpg">
 
 ## Desgin Decision Discussion
     Could someone buld on top of your design with modifications?
@@ -422,6 +428,7 @@ The funnels are recycled from a wide mouth flavored water.
 The gears were designed using a CAD software, then 3D printed. The gear design was oversided, thus we had to at cardboard inserts to reduce the gears' total capacity. 
 ### Ramp
 The ramp is made from bent sheet metal. The disign uses three pieces of metal that are pop riveted together.
+
 ## Testing Description
     Could another test engineer replicate your test?
     Test equipment specified 
