@@ -389,26 +389,26 @@ void spinGreenMotor(int greenMotorSpeed) {                      //function for d
 #### Wooden Frame
 The wooden frame holds the weight of the vending machine while holding all the other parts in place. A drawing of the frame can be viewed below. The two base slabs are 3.5 x 10.5 x 0.5 inches. The wooden legs atop the slabs are 16 x 3.5 x 0.5 inches. The frame has two smaller wooden beams to connect the legs, located at the top and middle of the machine. Each beam has a size of 24 x 1 x 1 inches. The top beam also connects and holds the funnels to the structure, while the middle beam has the four DC motors for the gears connected to it. Under the middle beam is a back panel to keep the candy from falling out of the back of the machine. The panel is 22.5 inches long and 4 inches tall.
 
-<img src="Engineering Drawings/Frame Drawing.png">
+<img src="Engineering Drawing/Frame Drawing.png">
 
 #### Funnels
 Four water bottles are cut at the bottom so that the bottle models a funnel-like design, as seen in the image below. The top diameter of the bottle is 2.75 inches, while the lower diameter is 1.5 inches. Each bottle is cut to a height of 7 inches. These funnels are to hold the candy. 
 
-<img src="Engineering Drawings/Funnel Drawing.png">
+<img src="Engineering Drawing/Funnel Drawing.png">
 
 #### Gears
 In addition to the 3D print, each gear will have four cardboard cutouts placed within it, two in each open section. The cardboard wedge minimize the room for the gear to house candy dispended from the funnel. This helps with controlling the flow and bottlenecking of candy in the machine. Each wedge matches the gear's circumference to fit nicely inside the opening with an overhang. 
 
-<img src="Engineering Drawings/Gear Drawing.png">
+<img src="Engineering Drawing/Gear Drawing.png">
 
 #### Ramp
 A piece of sheet metal is formed to model a ramp-like design. The ramp looks like a trapezoid atop a rectangle, as seen in the drawing below. The rectangle is 22.5 inches long with a width of 3.5 inches. The outer rim of the rectangle has a 1-inch high vertical piece to attach it to the wooden legs while also acting as a wall to keep the fallen candy in. The trapezoidal shape continues with a base of 22.5 inches to match the rectangle. The second base has a size of 4 inches, while the length extends to 9 inches. The sides of the trapezoid also have a wall to keep the dispended candy in, standing at 1.25 inches tall. The smaller base is left open without a wall, as this will be where the user accesses the candy. 
 
-<img src="Engineering Drawings/Ramp Drawing.png">
+<img src="Engineering Drawing/Ramp Drawing.png">
 
 ### Overall Assembly
 All four parts are combined to create the vending machine drawn below. 
-<img src="Engineering Drawings/Overall Build Drawing.png">
+<img src="Engineering Drawing/Overall Build Drawing.png">
 
 Eight small holes are drilled into the upper wooden beam of the wooden structure so that four steel wires may pass through. Each wire is placed in two holes and wrapped around one of the bottle funnels, with the smaller diameter facing down. Four DC motors with 3D-printed gears attached are placed directly below the funnels. To hold the gears in place, each motor is tied with the steel wire to the middle wooden beam. Right below the frame's back panel is the ramp. The ramp is slightly tilted, with the trapezoidal side lower than the rectangular side. A sheet of acrylic (9 x 22.5 X 0.125 inches) is fit between the two legs of the machine, below the upper wooden beam. The acrylic stops any candy from falling toward the user before the ramp and allows the user to see the movement of the gears. The candy will start in the funnels, with each funnel housing a different type of candy. When the gear spins, the candy will fall into the gear and then into the ramp tray. When the gear stops spinning, the funnel's hole is blocked, stopping the candy. The candy already dispensed in the tray will move towards the smaller opening in the ramp for the user to access. The physical vending machine can be viewed below.
 
