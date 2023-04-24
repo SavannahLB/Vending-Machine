@@ -73,7 +73,7 @@ To house the entire circuit, two Red Boards are used. The vending machine's circ
 
 ### Code
 
-The goal for the code was for the user to press a button in order to make one of the gears spin to dispense candy as an LCD displays the kind of candy that corresponds to that gear. Two Arduino IDE code files were used. One for the "input" Arduino Board with all the buttons and the LCD screen, and one for the "output" Arduino board with the motors. Two Arduinos were needed because there weren't enough digital pins in only one arduino for the LCD screen and the 4 motors. 
+The goal for the Arduino IDE code was for the user to press a button in order to make one of the gears spin to dispense candy as an LCD displays the kind of candy that corresponds to that gear. Two Arduino IDE code files were used. One for the "input" Arduino Board with all the buttons and the LCD screen, and one for the "output" Arduino board with the motors. Two Arduinos were needed because there weren't enough digital pins in only one arduino for the LCD screen and the 4 motors. 
 
 The code for the input board starts by initializing the needed variables and setting up the buttons as inputs. It is important to note that even though the LCD is in the input board code, it truly is an output. It was added into this code file regardless because it was convenient to make it respond because a button was pressed instead of making it respond when a motor spun. 
 ```
