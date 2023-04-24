@@ -73,10 +73,9 @@ To house the entire circuit, two Red Boards are used. The vending machine's circ
 
 ### Code
 
-Two Arduino IDE code files were used. One for the "input" Arduino Board with all the buttons and the LCD screen, and one for the "output" Arduino board with the motors. Two Arduinos were needed because there weren't enough digital pins in only one arduino for the LCD screen and the 4 motors. 
+The goal for the code was for the user to press a button in order to make one of the gears spin to dispense candy as an LCD displays the kind of candy that corresponds to that gear. Two Arduino IDE code files were used. One for the "input" Arduino Board with all the buttons and the LCD screen, and one for the "output" Arduino board with the motors. Two Arduinos were needed because there weren't enough digital pins in only one arduino for the LCD screen and the 4 motors. 
 
-The input board code: 
-
+The code for the input board starts by initializing the needed variables and setting up the buttons as inputs. It is important to note that even though the LCD is in the input board code, it truly is an output. It was added into this code file regardless because it was convenient to make it respond because a button was pressed instead of making it respond when a motor spun. 
 ```
 
 // this is for the arduino with all the buttons and lcd display
@@ -116,10 +115,16 @@ void setup() {
 
 
 
+
   Serial.begin(9600);           //begin serial communication with the computer
 
 }
 
+```
+
+Then, an if-else loop scans for user input from the buttons. When one of the buttons is pressed, a number from 1 to 4 (Assigned to each motor at variable initialization) is sent over to the output board code. To achieve that, the function Serial.print() was used. 
+
+```
 void loop() {
 
   if (digitalRead(yellowButtonPin) == LOW) { //if the yellow button is pressed, send yellowMotor over to the input Board
@@ -207,7 +212,7 @@ void loop() {
 
 ```
 
-The output board code: 
+The output board code also starts by initializing the needed variables and setting up the motors as outputs. 
 
 ```
 
@@ -262,7 +267,11 @@ void setup() {
   Serial.begin(9600);           //begin serial communication with the computer
 }
 
+```
 
+Then a string called motor was initialized to be 0. Later that variable was set to Serial.readString (). That function reads the information sent over from the input board. 
+
+```
 
 void loop() {
 
@@ -273,6 +282,12 @@ void loop() {
   motor = Serial.readString();       //receives information sent over from the input board code
   Serial.println("Motor value is");
   Serial.println(motor);
+  
+```
+
+Then, that received information in used in an else-if statement. Depending on what input is received, a different motor turns. The function spinVariable() sets the speed of the motor corresponding to said variable and delay() sets the amount of time the motor will spin for. 
+
+```
   if (motor == "1") {
 
                             // Serial.println("motor 1 activated");
@@ -312,9 +327,12 @@ void loop() {
 
 
 }
-    
 
+```
 
+Then, more motor setup entails.
+
+```
 void spinYellowMotor( int yellowMotorSpeed) {                     //function for driving the yellow button motor
   if (yellowMotorSpeed > 0)                                 //if the motor should drive forward (positive speed)
   {
@@ -381,6 +399,7 @@ void spinGreenMotor(int greenMotorSpeed) {                      //function for d
 ```
 
 ### Parts of Build
+
     Ramp, funnels, gears, frame, etc. 
     Put engineering drawings here
     Talk about finalized designs
