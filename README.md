@@ -449,22 +449,42 @@ The gears were designed using a CAD software, then 3D printed. The gear design w
 The ramp is made from bent sheet metal. The disign uses three pieces of metal that are pop riveted together.
 
 ## Testing Description
+In order to determine if each function of the vending machine works, the team first picked a specific candy type from the signage that correlated with a button color displayed on the signage below the candy type signage. A team member located that specific button (1 of 4-green, yellow,red, and blue) from the Sparkfun Inventors Kit and ensured there was a container at the bottom of the hopper to cacth the candy that falls from the specified funnel. Then the following procedure is followed for each candy type (M&Ms,Reese's Pieces, Skittles and Peanut M&Ms) and each colored button. 
+1. Ensure all gears are in a position that blocks the outlet of the candy, and that each bottle candy storage has candy inside it.
+2. Select 1 of four candy types and locate button of coreespnding color
+3. Ensure something is below hopper to catch candy once dispensed
+4. Press selected button
+5.Ensure the correct gear dispenses desired candy
+6. Ensure the name of the candy appears on the LCD after pressing button
+7. Replace dispensed candy into bottle candy holders.
+7. Repeat for the other 3 candies/buttons. 
     Could another test engineer replicate your test?
     Test equipment specified 
     Procedures Fully described
     
     
 ## Testing Results
+The teams observed that pressing each color button on the Sparkfun Inventors Kit RedBoard resulted in the following functions successfully:
+1. The correct candy was dispensed when the specific color button was pressed.
+2. The correct candy name was displayed on the LCD as a result of pressing the corresponding button. 
     Where test results described correctly?
     Were proper tests performed to measure the system capabilites?
     Result are clearly documented
     
 ## Test Result Discussion
-    Are the capabilites of the sytem described?
-    Where would this desing work?
-    How well does it work?
-    What are the limitations? 
-    What can it not do?
+The results of the tests ran to confirm the capabilities of the bending machine are as follows:
+1. The code was properly written, formatted, and uploaded and the desired functions of the motors, buttons and LCD screen were perfoemd based on what the code was. 
+2. The motors turned enough and at an acceptable enough speed to allow candy to fall from the bottles, as well as to catch the candy and drop the candy into the hopper
+3. The specified buttons being in the LOW position or pressed does initate the correct motor to spin at a specified speed for a specified amount of time.
+4. The specified buttons being pressed resulted in the LCD to print the specified candy names based on the input of the code. 
+5. The candy types chosen to be implemented into the design worked well with the functional limitations for the design, i.e. being gravity fed and the candy falling if the outlet of the candy storage is not blocked properly.  
+
+  The vending machine was able to dispense 4 different candies, M&Ms, Skittles, Reese's Pieces, and Peanut M&Ms, using 4 different color buttons, and display the name of the specific candy on the LCD screen after the button is pressed. The candy was able to be stored and then dispensed when requested by the button being pressed.  
+    This design would work anywhere there is a large enough surface to set it on and a power source to plug in the RedBoards the hold the LCD and buttons and power the gears. The design would be desired anywhere people tend to want a small snack. 
+      The design works well, the buttons being pressed consisitently result in the listed functions, and the device does not operate unprovoked or without a button being pressed. The buttons and candies correlate correctly, as in the candy expected to be dispensed when the specific button is pressed is what is dispensed, and there is no room in the code or circuits to cause disfunction in that way. The LCD always shows the correct candy selected on the screen after he button is pressed.
+    The main limitations are the size restraints based on our specific materials. The motors can only be so much distance apart because the wires we have available to connect the two breadboards and the motors to the same Redboard are relatively short. Another limitation is that only oe candy can be dispensed at once and still have all the functions act correctly. Pressing 2 buttons at once is not accounted for in the code. The candy types being used in the device are also limited becuase bigger candies would most likely jam the gears and not dispense well, and too small of candies would not be able to be blocked by the storage outlet and gear well enough to stop the flow of candy when it is not supposed to dispense. Lastly, is the candy gets switched out, the user would have to change the code to display the correct candy names on the LCD. 
+    
+   
     
     
   
