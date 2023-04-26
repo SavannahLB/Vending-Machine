@@ -398,6 +398,8 @@ void spinGreenMotor(int greenMotorSpeed) {                      //function for d
 
 ```
 
+It is important to note that when uploading each code to its respective Arduino, the Arduinos must be disconnected from each other.
+
 ### Parts of Build
 
     Ramp, funnels, gears, frame, etc. 
