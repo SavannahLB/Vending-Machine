@@ -423,7 +423,8 @@ Eight small holes are drilled into the upper wooden beam of the wooden structure
 <img src="Pictures/Vending Machine (Front).jpg">
 <img src="Pictures/Vending Machine (Back).jpg">
 
-## Desgin Decision Discussion
+## Design Decision Discussion
+During the design decision process, several different gear designs, circuit configurations, and wooden frame arrangements were tested to ensure the most practical and efficient resulting operation of the vending machine. The gear design went from having a solid interior and (?) openings to (still working this, sorry for the delay)
     Could someone buld on top of your design with modifications?
     Design decisions are described completely
     Talk about evolution of the build; what changed, what was updated, what is the final result
@@ -435,7 +436,7 @@ The funnels are recycled from a wide mouth flavored water.
 ### Gears
 The gears were designed using a CAD software, then 3D printed. The gear design was oversided, thus we had to at cardboard inserts to reduce the gears' total capacity. 
 ### Ramp
-The ramp is made from bent sheet metal. The disign uses three pieces of metal that are pop riveted together.
+The ramp is made from bent sheet metal. The design uses three pieces of metal that are pop riveted together.
 
 ## Testing Description
 In order to determine if each function of the vending machine works, the team first picked a specific candy type from the signage that correlated with a button color displayed on the signage below the candy type signage. A team member located that specific button (1 of 4-green, yellow,red, and blue) from the Sparkfun Inventors Kit and ensured there was a container at the bottom of the hopper to cacth the candy that falls from the specified funnel. Then the following procedure is followed for each candy type (M&Ms,Reese's Pieces, Skittles and Peanut M&Ms) and each colored button. 
@@ -470,7 +471,7 @@ The results of the tests ran to confirm the capabilities of the bending machine 
 
   The vending machine was able to dispense 4 different candies, M&Ms, Skittles, Reese's Pieces, and Peanut M&Ms, using 4 different color buttons, and display the name of the specific candy on the LCD screen after the button is pressed. The candy was able to be stored and then dispensed when requested by the button being pressed.  
     This design would work anywhere there is a large enough surface to set it on and a power source to plug in the RedBoards the hold the LCD and buttons and power the gears. The design would be desired anywhere people tend to want a small snack. 
-      The design works well, the buttons being pressed consisitently result in the listed functions, and the device does not operate unprovoked or without a button being pressed. The buttons and candies correlate correctly, as in the candy expected to be dispensed when the specific button is pressed is what is dispensed, and there is no room in the code or circuits to cause disfunction in that way. The LCD always shows the correct candy selected on the screen after he button is pressed.
+      The design works well, the buttons being pressed consistently result in the listed functions, and the device does not operate unprovoked or without a button being pressed. The buttons and candies correlate correctly, as in the candy expected to be dispensed when the specific button is pressed is what is dispensed, and there is no room in the code or circuits to cause disfunction in that way. The LCD always shows the correct candy selected on the screen after he button is pressed.
     The main limitations are the size restraints based on our specific materials. The motors can only be so much distance apart because the wires we have available to connect the two breadboards and the motors to the same Redboard are relatively short. Another limitation is that only oe candy can be dispensed at once and still have all the functions act correctly. Pressing 2 buttons at once is not accounted for in the code. The candy types being used in the device are also limited becuase bigger candies would most likely jam the gears and not dispense well, and too small of candies would not be able to be blocked by the storage outlet and gear well enough to stop the flow of candy when it is not supposed to dispense. Lastly, is the candy gets switched out, the user would have to change the code to display the correct candy names on the LCD. 
     
    
