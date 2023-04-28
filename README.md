@@ -424,8 +424,8 @@ Eight small holes are drilled into the upper wooden beam of the wooden structure
 <img src="Pictures/Vending Machine (Back).jpg">
 
 ## Design Decision Discussion
-During the design decision process, several different gear designs, circuit configurations, and wooden frame arrangements were tested to ensure the most practical and efficient resulting operation of the vending machine. The gear design went from having a solid interior and (?) openings to (still working this, sorry for the delay)
-    Could someone buld on top of your design with modifications?
+During the design decision process, several different gear designs, circuit configurations, and wooden frame arrangements were tested to ensure the most practical and efficient resulting operation of the vending machine. The gear design went from having a solid interior and (?) openings, to a hollow interior and two bigger openings, in order to speed up printing times, reduce cost, and streamline the design. Two cardboard cutouts were then added to each opening of the gears to  (still working on this, sorry for the delay)
+    Could someone build on top of your design with modifications?
     Design decisions are described completely
     Talk about evolution of the build; what changed, what was updated, what is the final result
     
