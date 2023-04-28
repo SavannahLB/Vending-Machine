@@ -424,7 +424,7 @@ Eight small holes are drilled into the upper wooden beam of the wooden structure
 <img src="Pictures/Vending Machine (Back).jpg">
 
 ## Design Decision Discussion
-During the design decision process, several different gear designs, circuit configurations, and wooden frame arrangements were tested to ensure the most practical and efficient resulting operation of the vending machine. The gear design went from having a solid interior and (?) openings, to a hollow interior and two bigger openings, in order to speed up printing times, reduce cost, and streamline the design. Two cardboard cutouts were then added to each opening of the gears to  (still working on this, sorry for the delay)
+During the design decision process, several different gear designs, circuit configurations, and wooden frame arrangements were tested to ensure the most practical and efficient resulting operation of the vending machine. The gear design went from having a solid interior and (?) openings, to a hollow interior and two bigger openings, in order to speed up printing times, reduce cost, and streamline the design. Two cardboard cutouts were then added to each opening of the gears to keep the candy contained and prevent any pieces of candy from falling through the open back of the frame. The circuits were originally designed to have the four buttons and LCD on the same board, but they were then adjusted to have the buttons on their own board in order to make pushing them more accessible for the user.
     Could someone build on top of your design with modifications?
     Design decisions are described completely
     Talk about evolution of the build; what changed, what was updated, what is the final result
